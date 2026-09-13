@@ -1,0 +1,20 @@
+# MicroPython Libraries and Dependencies
+# Upload these files to your Raspberry Pi Pico 2
+
+# Core modules (built-in to MicroPython):
+# - machine: GPIO, I2C, SPI, PWM
+# - utime: Time functions
+# - ustruct: Struct packing/unpacking
+# - os: File operations
+
+# Custom modules (included in this repository):
+# - bmp280.py: BMP280 sensor driver
+# - sx127x.py: SX127x LoRa module driver
+
+# Installation:
+# 1. Copy bmp280.py to Pico 2 root or /lib directory
+# 2. Copy sx127x.py to Pico 2 root or /lib directory
+# 3. Copy air_unit/main.py to Pico 2 root for air unit
+# 4. Copy ground_station/main.py to Pico 2 root for ground station
+
+# No external PyPI packages required - uses only MicroPython built-ins
