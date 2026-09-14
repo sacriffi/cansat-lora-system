@@ -23,7 +23,7 @@ di0_pin = machine.Pin(9, machine.Pin.IN)
 
 lora = SX127x(spi, cs_pin, reset_pin, di0_pin)
 lora.init()
-lora.set_frequency(433e6)  # 433 MHz frequency
+lora.set_frequency(433e6)  # 433 MHz frequency, it is the same as the ground unit
 lora.set_tx_power(20)  # 20 dBm
 lora.set_spreading_factor(7)
 lora.set_bandwidth(125000)
